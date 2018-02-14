@@ -1,23 +1,76 @@
 {
-  "type" : "FeatureCollection",
-  "crs" : {
-    "type" : "name",
-    "properties" : {
-      "name" : "EPSG:2913"
-    }
+  "displayFieldName" : "",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "CATEGORY" : "CATEGORY",
+    "CALL_GROUP" : "CALL_GROUP",
+    "final_case" : "final_case",
+    "CASE_DESC" : "CASE_DESC",
+    "occ_date" : "occ_date",
+    "x_coordina" : "x_coordina",
+    "y_coordina" : "y_coordina",
+    "census_tra" : "census_tra"
   },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : 2913,
+    "latestWkid" : 2913
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "CATEGORY",
+      "type" : "esriFieldTypeString",
+      "alias" : "CATEGORY",
+      "length" : 254
+    },
+    {
+      "name" : "CALL_GROUP",
+      "type" : "esriFieldTypeString",
+      "alias" : "CALL_GROUP",
+      "length" : 254
+    },
+    {
+      "name" : "final_case",
+      "type" : "esriFieldTypeString",
+      "alias" : "final_case",
+      "length" : 254
+    },
+    {
+      "name" : "CASE_DESC",
+      "type" : "esriFieldTypeString",
+      "alias" : "CASE_DESC",
+      "length" : 254
+    },
+    {
+      "name" : "occ_date",
+      "type" : "esriFieldTypeDate",
+      "alias" : "occ_date",
+      "length" : 8
+    },
+    {
+      "name" : "x_coordina",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "x_coordina"
+    },
+    {
+      "name" : "y_coordina",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "y_coordina"
+    },
+    {
+      "name" : "census_tra",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "census_tra"
+    }
+  ],
   "features" : [
     {
-      "type" : "Feature",
-      "id" : 0,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7661538,
-          689217
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 0,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -27,19 +80,14 @@
         "x_coordina" : 7661538,
         "y_coordina" : 689217,
         "census_tra" : 2802
+      },
+      "geometry" : {
+        "x" : 7661538,
+        "y" : 689217
       }
     },
     {
-      "type" : "Feature",
-      "id" : 1,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7662605,
-          667163
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 1,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -49,19 +97,14 @@
         "x_coordina" : 7662605,
         "y_coordina" : 667163,
         "census_tra" : 402
+      },
+      "geometry" : {
+        "x" : 7662605,
+        "y" : 667163
       }
     },
     {
-      "type" : "Feature",
-      "id" : 2,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7636301,
-          660939
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 2,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -71,19 +114,14 @@
         "x_coordina" : 7636301,
         "y_coordina" : 660939,
         "census_tra" : 6200
+      },
+      "geometry" : {
+        "x" : 7636301,
+        "y" : 660939
       }
     },
     {
-      "type" : "Feature",
-      "id" : 3,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7665894,
-          692913
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 3,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -93,19 +131,14 @@
         "x_coordina" : 7665894,
         "y_coordina" : 692913,
         "census_tra" : 2901
+      },
+      "geometry" : {
+        "x" : 7665894,
+        "y" : 692913
       }
     },
     {
-      "type" : "Feature",
-      "id" : 4,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7678549,
-          695203
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 4,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -115,19 +148,14 @@
         "x_coordina" : 7678549,
         "y_coordina" : 695203,
         "census_tra" : 7900
+      },
+      "geometry" : {
+        "x" : 7678549,
+        "y" : 695203
       }
     },
     {
-      "type" : "Feature",
-      "id" : 5,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7682195,
-          661968
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 5,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -137,19 +165,14 @@
         "x_coordina" : 7682195,
         "y_coordina" : 661968,
         "census_tra" : 8901
+      },
+      "geometry" : {
+        "x" : 7682195,
+        "y" : 661968
       }
     },
     {
-      "type" : "Feature",
-      "id" : 6,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7684546,
-          674641
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 6,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -159,19 +182,14 @@
         "x_coordina" : 7684546,
         "y_coordina" : 674641,
         "census_tra" : 9101
+      },
+      "geometry" : {
+        "x" : 7684546,
+        "y" : 674641
       }
     },
     {
-      "type" : "Feature",
-      "id" : 7,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7640523,
-          660001
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 7,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -181,19 +199,14 @@
         "x_coordina" : 7640523,
         "y_coordina" : 660001,
         "census_tra" : 6300
+      },
+      "geometry" : {
+        "x" : 7640523,
+        "y" : 660001
       }
     },
     {
-      "type" : "Feature",
-      "id" : 8,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7646876,
-          694099
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 8,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -203,19 +216,14 @@
         "x_coordina" : 7646876,
         "y_coordina" : 694099,
         "census_tra" : 3402
+      },
+      "geometry" : {
+        "x" : 7646876,
+        "y" : 694099
       }
     },
     {
-      "type" : "Feature",
-      "id" : 9,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7639102,
-          685953
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 9,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -225,19 +233,14 @@
         "x_coordina" : 7639102,
         "y_coordina" : 685953,
         "census_tra" : 4700
+      },
+      "geometry" : {
+        "x" : 7639102,
+        "y" : 685953
       }
     },
     {
-      "type" : "Feature",
-      "id" : 10,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7641180,
-          695718
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 10,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -247,19 +250,14 @@
         "x_coordina" : 7641180,
         "y_coordina" : 695718,
         "census_tra" : 3502
+      },
+      "geometry" : {
+        "x" : 7641180,
+        "y" : 695718
       }
     },
     {
-      "type" : "Feature",
-      "id" : 11,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7676556,
-          696045
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 11,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -269,19 +267,14 @@
         "x_coordina" : 7676556,
         "y_coordina" : 696045,
         "census_tra" : 7900
+      },
+      "geometry" : {
+        "x" : 7676556,
+        "y" : 696045
       }
     },
     {
-      "type" : "Feature",
-      "id" : 12,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7641527,
-          679007
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 12,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -291,19 +284,14 @@
         "x_coordina" : 7641527,
         "y_coordina" : 679007,
         "census_tra" : 5800
+      },
+      "geometry" : {
+        "x" : 7641527,
+        "y" : 679007
       }
     },
     {
-      "type" : "Feature",
-      "id" : 13,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7632742,
-          703935
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 13,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -313,19 +301,14 @@
         "x_coordina" : 7632742,
         "y_coordina" : 703935,
         "census_tra" : 4002
+      },
+      "geometry" : {
+        "x" : 7632742,
+        "y" : 703935
       }
     },
     {
-      "type" : "Feature",
-      "id" : 14,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7665843,
-          681042
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 14,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -335,19 +318,14 @@
         "x_coordina" : 7665843,
         "y_coordina" : 681042,
         "census_tra" : 1601
+      },
+      "geometry" : {
+        "x" : 7665843,
+        "y" : 681042
       }
     },
     {
-      "type" : "Feature",
-      "id" : 15,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7650813,
-          677051
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 15,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -357,19 +335,14 @@
         "x_coordina" : 7650813,
         "y_coordina" : 677051,
         "census_tra" : 1000
+      },
+      "geometry" : {
+        "x" : 7650813,
+        "y" : 677051
       }
     },
     {
-      "type" : "Feature",
-      "id" : 16,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7639866,
-          665918
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 16,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -379,19 +352,14 @@
         "x_coordina" : 7639866,
         "y_coordina" : 665918,
         "census_tra" : 6002
+      },
+      "geometry" : {
+        "x" : 7639866,
+        "y" : 665918
       }
     },
     {
-      "type" : "Feature",
-      "id" : 17,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7656875,
-          673785
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 17,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -401,19 +369,14 @@
         "x_coordina" : 7656875,
         "y_coordina" : 673785,
         "census_tra" : 902
+      },
+      "geometry" : {
+        "x" : 7656875,
+        "y" : 673785
       }
     },
     {
-      "type" : "Feature",
-      "id" : 18,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7631871,
-          705189
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 18,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
@@ -423,42 +386,15 @@
         "x_coordina" : 7631871,
         "y_coordina" : 705189,
         "census_tra" : 4002
+      },
+      "geometry" : {
+        "x" : 7631871,
+        "y" : 705189
       }
     },
     {
-      "type" : "Feature",
-      "id" : 19,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7639173,
-          708232
-        ]
-      },
-      "properties" : {
+      "attributes" : {
         "FID" : 19,
-        "CATEGORY" : "OTHER",
-        "CALL_GROUP" : "DISORDER",
-        "final_case" : "PARTY",
-        "CASE_DESC" : "PARTY DISTURBANCE",
-        "occ_date" : 1471564800000,
-        "x_coordina" : 7639173,
-        "y_coordina" : 708232,
-        "census_tra" : 3901
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 20,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7660657,
-          685042
-        ]
-      },
-      "properties" : {
-        "FID" : 20,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -467,20 +403,15 @@
         "x_coordina" : 7660657,
         "y_coordina" : 685042,
         "census_tra" : 1801
+      },
+      "geometry" : {
+        "x" : 7660657,
+        "y" : 685042
       }
     },
     {
-      "type" : "Feature",
-      "id" : 21,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7657126,
-          672876
-        ]
-      },
-      "properties" : {
-        "FID" : 21,
+      "attributes" : {
+        "FID" : 20,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -489,42 +420,15 @@
         "x_coordina" : 7657126,
         "y_coordina" : 672876,
         "census_tra" : 902
+      },
+      "geometry" : {
+        "x" : 7657126,
+        "y" : 672876
       }
     },
     {
-      "type" : "Feature",
-      "id" : 22,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7624529,
-          708181
-        ]
-      },
-      "properties" : {
-        "FID" : 22,
-        "CATEGORY" : "OTHER",
-        "CALL_GROUP" : "DISORDER",
-        "final_case" : "PARTY",
-        "CASE_DESC" : "PARTY DISTURBANCE",
-        "occ_date" : 1472515200000,
-        "x_coordina" : 7624529,
-        "y_coordina" : 708181,
-        "census_tra" : 4200
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 23,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7678470,
-          670170
-        ]
-      },
-      "properties" : {
-        "FID" : 23,
+      "attributes" : {
+        "FID" : 21,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -533,20 +437,15 @@
         "x_coordina" : 7678470,
         "y_coordina" : 670170,
         "census_tra" : 8500
+      },
+      "geometry" : {
+        "x" : 7678470,
+        "y" : 670170
       }
     },
     {
-      "type" : "Feature",
-      "id" : 24,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7656487,
-          663021
-        ]
-      },
-      "properties" : {
-        "FID" : 24,
+      "attributes" : {
+        "FID" : 22,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -555,20 +454,15 @@
         "x_coordina" : 7656487,
         "y_coordina" : 663021,
         "census_tra" : 302
+      },
+      "geometry" : {
+        "x" : 7656487,
+        "y" : 663021
       }
     },
     {
-      "type" : "Feature",
-      "id" : 25,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7668235,
-          695283
-        ]
-      },
-      "properties" : {
-        "FID" : 25,
+      "attributes" : {
+        "FID" : 23,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -577,20 +471,15 @@
         "x_coordina" : 7668235,
         "y_coordina" : 695283,
         "census_tra" : 2901
+      },
+      "geometry" : {
+        "x" : 7668235,
+        "y" : 695283
       }
     },
     {
-      "type" : "Feature",
-      "id" : 26,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7651448,
-          662335
-        ]
-      },
-      "properties" : {
-        "FID" : 26,
+      "attributes" : {
+        "FID" : 24,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -599,20 +488,15 @@
         "x_coordina" : 7651448,
         "y_coordina" : 662335,
         "census_tra" : 200
+      },
+      "geometry" : {
+        "x" : 7651448,
+        "y" : 662335
       }
     },
     {
-      "type" : "Feature",
-      "id" : 27,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7664217,
-          689501
-        ]
-      },
-      "properties" : {
-        "FID" : 27,
+      "attributes" : {
+        "FID" : 25,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -621,42 +505,15 @@
         "x_coordina" : 7664217,
         "y_coordina" : 689501,
         "census_tra" : 2801
+      },
+      "geometry" : {
+        "x" : 7664217,
+        "y" : 689501
       }
     },
     {
-      "type" : "Feature",
-      "id" : 28,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7640607,
-          707349
-        ]
-      },
-      "properties" : {
-        "FID" : 28,
-        "CATEGORY" : "OTHER",
-        "CALL_GROUP" : "DISORDER",
-        "final_case" : "PARTY",
-        "CASE_DESC" : "PARTY DISTURBANCE",
-        "occ_date" : 1471478400000,
-        "x_coordina" : 7640607,
-        "y_coordina" : 707349,
-        "census_tra" : 3901
-      }
-    },
-    {
-      "type" : "Feature",
-      "id" : 29,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7646876,
-          694099
-        ]
-      },
-      "properties" : {
-        "FID" : 29,
+      "attributes" : {
+        "FID" : 26,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -665,20 +522,15 @@
         "x_coordina" : 7646876,
         "y_coordina" : 694099,
         "census_tra" : 3402
+      },
+      "geometry" : {
+        "x" : 7646876,
+        "y" : 694099
       }
     },
     {
-      "type" : "Feature",
-      "id" : 30,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7644726,
-          668997
-        ]
-      },
-      "properties" : {
-        "FID" : 30,
+      "attributes" : {
+        "FID" : 27,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -687,20 +539,15 @@
         "x_coordina" : 7644726,
         "y_coordina" : 668997,
         "census_tra" : 5900
+      },
+      "geometry" : {
+        "x" : 7644726,
+        "y" : 668997
       }
     },
     {
-      "type" : "Feature",
-      "id" : 31,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7660347,
-          680675
-        ]
-      },
-      "properties" : {
-        "FID" : 31,
+      "attributes" : {
+        "FID" : 28,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -709,20 +556,15 @@
         "x_coordina" : 7660347,
         "y_coordina" : 680675,
         "census_tra" : 1400
+      },
+      "geometry" : {
+        "x" : 7660347,
+        "y" : 680675
       }
     },
     {
-      "type" : "Feature",
-      "id" : 32,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7646491,
-          695999
-        ]
-      },
-      "properties" : {
-        "FID" : 32,
+      "attributes" : {
+        "FID" : 29,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -731,20 +573,15 @@
         "x_coordina" : 7646491,
         "y_coordina" : 695999,
         "census_tra" : 3401
+      },
+      "geometry" : {
+        "x" : 7646491,
+        "y" : 695999
       }
     },
     {
-      "type" : "Feature",
-      "id" : 33,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7650996,
-          679743
-        ]
-      },
-      "properties" : {
-        "FID" : 33,
+      "attributes" : {
+        "FID" : 30,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -753,20 +590,15 @@
         "x_coordina" : 7650996,
         "y_coordina" : 679743,
         "census_tra" : 1102
+      },
+      "geometry" : {
+        "x" : 7650996,
+        "y" : 679743
       }
     },
     {
-      "type" : "Feature",
-      "id" : 34,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7651129,
-          698345
-        ]
-      },
-      "properties" : {
-        "FID" : 34,
+      "attributes" : {
+        "FID" : 31,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -775,20 +607,15 @@
         "x_coordina" : 7651129,
         "y_coordina" : 698345,
         "census_tra" : 3301
+      },
+      "geometry" : {
+        "x" : 7651129,
+        "y" : 698345
       }
     },
     {
-      "type" : "Feature",
-      "id" : 35,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7633637,
-          704849
-        ]
-      },
-      "properties" : {
-        "FID" : 35,
+      "attributes" : {
+        "FID" : 32,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -797,20 +624,15 @@
         "x_coordina" : 7633637,
         "y_coordina" : 704849,
         "census_tra" : 4002
+      },
+      "geometry" : {
+        "x" : 7633637,
+        "y" : 704849
       }
     },
     {
-      "type" : "Feature",
-      "id" : 36,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7658489,
-          670093
-        ]
-      },
-      "properties" : {
-        "FID" : 36,
+      "attributes" : {
+        "FID" : 33,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -819,20 +641,15 @@
         "x_coordina" : 7658489,
         "y_coordina" : 670093,
         "census_tra" : 401
+      },
+      "geometry" : {
+        "x" : 7658489,
+        "y" : 670093
       }
     },
     {
-      "type" : "Feature",
-      "id" : 37,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7666224,
-          675380
-        ]
-      },
-      "properties" : {
-        "FID" : 37,
+      "attributes" : {
+        "FID" : 34,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -841,20 +658,15 @@
         "x_coordina" : 7666224,
         "y_coordina" : 675380,
         "census_tra" : 701
+      },
+      "geometry" : {
+        "x" : 7666224,
+        "y" : 675380
       }
     },
     {
-      "type" : "Feature",
-      "id" : 38,
-      "geometry" : {
-        "type" : "Point",
-        "coordinates" : [
-          7645125,
-          694413
-        ]
-      },
-      "properties" : {
-        "FID" : 38,
+      "attributes" : {
+        "FID" : 35,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -863,6 +675,10 @@
         "x_coordina" : 7645125,
         "y_coordina" : 694413,
         "census_tra" : 3402
+      },
+      "geometry" : {
+        "x" : 7645125,
+        "y" : 694413
       }
     }
   ]
