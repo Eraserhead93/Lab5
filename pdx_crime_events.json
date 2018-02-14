@@ -621,23 +621,6 @@
         "final_case" : "PARTY",
         "CASE_DESC" : "PARTY DISTURBANCE",
         "occ_date" : 1472256000000,
-        "x_coordina" : 7633637,
-        "y_coordina" : 704849,
-        "census_tra" : 4002
-      },
-      "geometry" : {
-        "x" : 7633637,
-        "y" : 704849
-      }
-    },
-    {
-      "attributes" : {
-        "FID" : 33,
-        "CATEGORY" : "OTHER",
-        "CALL_GROUP" : "DISORDER",
-        "final_case" : "PARTY",
-        "CASE_DESC" : "PARTY DISTURBANCE",
-        "occ_date" : 1472256000000,
         "x_coordina" : 7658489,
         "y_coordina" : 670093,
         "census_tra" : 401
@@ -649,7 +632,7 @@
     },
     {
       "attributes" : {
-        "FID" : 34,
+        "FID" : 33,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
@@ -666,7 +649,7 @@
     },
     {
       "attributes" : {
-        "FID" : 35,
+        "FID" : 34,
         "CATEGORY" : "OTHER",
         "CALL_GROUP" : "DISORDER",
         "final_case" : "PARTY",
